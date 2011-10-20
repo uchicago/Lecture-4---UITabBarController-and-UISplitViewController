@@ -13,6 +13,16 @@
 		374BE788145069AE00DEFF84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 374BE786145069AE00DEFF84 /* InfoPlist.strings */; };
 		374BE78A145069AE00DEFF84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BE789145069AE00DEFF84 /* main.m */; };
 		374BE78E145069AE00DEFF84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BE78D145069AE00DEFF84 /* AppDelegate.m */; };
+		374BE79A14506A1A00DEFF84 /* GreenViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BE79514506A1A00DEFF84 /* GreenViewController_iPhone.m */; };
+		374BE79B14506A1A00DEFF84 /* GreenViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374BE79614506A1A00DEFF84 /* GreenViewController_iPhone.xib */; };
+		374BE79C14506A1A00DEFF84 /* HomeViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BE79814506A1A00DEFF84 /* HomeViewController_iPhone.m */; };
+		374BE79D14506A1A00DEFF84 /* HomeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374BE79914506A1A00DEFF84 /* HomeViewController_iPhone.xib */; };
+		374BE7AA14506A4F00DEFF84 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BE7A114506A4F00DEFF84 /* AddViewController.m */; };
+		374BE7AB14506A4F00DEFF84 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374BE7A214506A4F00DEFF84 /* AddViewController.xib */; };
+		374BE7AC14506A4F00DEFF84 /* DetailViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BE7A414506A4F00DEFF84 /* DetailViewController_iPad.m */; };
+		374BE7AD14506A4F00DEFF84 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374BE7A514506A4F00DEFF84 /* DetailViewController_iPad.xib */; };
+		374BE7AE14506A4F00DEFF84 /* MasterViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BE7A814506A4F00DEFF84 /* MasterViewController_iPad.m */; };
+		374BE7AF14506A4F00DEFF84 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374BE7A914506A4F00DEFF84 /* MasterViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,28 @@
 		374BE77D145069AE00DEFF84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		374BE77F145069AE00DEFF84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		374BE781145069AE00DEFF84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		374BE785145069AE00DEFF84 /* Lecture 4 - Demonstration-Info.plist */ = {isa = PBXFileReference; path = "Lecture 4 - Demonstration-Info.plist"; sourceTree = "<group>"; };
+		374BE785145069AE00DEFF84 /* Lecture 4 - Demonstration-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lecture 4 - Demonstration-Info.plist"; sourceTree = "<group>"; };
 		374BE787145069AE00DEFF84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		374BE789145069AE00DEFF84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		374BE78B145069AE00DEFF84 /* Lecture 4 - Demonstration-Prefix.pch */ = {isa = PBXFileReference; path = "Lecture 4 - Demonstration-Prefix.pch"; sourceTree = "<group>"; };
-		374BE78C145069AE00DEFF84 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		374BE78B145069AE00DEFF84 /* Lecture 4 - Demonstration-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lecture 4 - Demonstration-Prefix.pch"; sourceTree = "<group>"; };
+		374BE78C145069AE00DEFF84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		374BE78D145069AE00DEFF84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		374BE79414506A1A00DEFF84 /* GreenViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController_iPhone.h; sourceTree = "<group>"; };
+		374BE79514506A1A00DEFF84 /* GreenViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController_iPhone.m; sourceTree = "<group>"; };
+		374BE79614506A1A00DEFF84 /* GreenViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenViewController_iPhone.xib; sourceTree = "<group>"; };
+		374BE79714506A1A00DEFF84 /* HomeViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController_iPhone.h; sourceTree = "<group>"; };
+		374BE79814506A1A00DEFF84 /* HomeViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController_iPhone.m; sourceTree = "<group>"; };
+		374BE79914506A1A00DEFF84 /* HomeViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController_iPhone.xib; sourceTree = "<group>"; };
+		374BE7A014506A4F00DEFF84 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		374BE7A114506A4F00DEFF84 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		374BE7A214506A4F00DEFF84 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		374BE7A314506A4F00DEFF84 /* DetailViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController_iPad.h; sourceTree = "<group>"; };
+		374BE7A414506A4F00DEFF84 /* DetailViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController_iPad.m; sourceTree = "<group>"; };
+		374BE7A514506A4F00DEFF84 /* DetailViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		374BE7A614506A4F00DEFF84 /* MasterDetailDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterDetailDelegate.h; sourceTree = "<group>"; };
+		374BE7A714506A4F00DEFF84 /* MasterViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController_iPad.h; sourceTree = "<group>"; };
+		374BE7A814506A4F00DEFF84 /* MasterViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController_iPad.m; sourceTree = "<group>"; };
+		374BE7A914506A4F00DEFF84 /* MasterViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,8 @@
 			children = (
 				374BE78C145069AE00DEFF84 /* AppDelegate.h */,
 				374BE78D145069AE00DEFF84 /* AppDelegate.m */,
+				374BE79E14506A2500DEFF84 /* iPhone */,
+				374BE79F14506A3700DEFF84 /* iPad */,
 				374BE784145069AE00DEFF84 /* Supporting Files */,
 			);
 			path = "Lecture 4 - Demonstration";
@@ -88,6 +116,36 @@
 				374BE78B145069AE00DEFF84 /* Lecture 4 - Demonstration-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		374BE79E14506A2500DEFF84 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				374BE79414506A1A00DEFF84 /* GreenViewController_iPhone.h */,
+				374BE79514506A1A00DEFF84 /* GreenViewController_iPhone.m */,
+				374BE79614506A1A00DEFF84 /* GreenViewController_iPhone.xib */,
+				374BE79714506A1A00DEFF84 /* HomeViewController_iPhone.h */,
+				374BE79814506A1A00DEFF84 /* HomeViewController_iPhone.m */,
+				374BE79914506A1A00DEFF84 /* HomeViewController_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		374BE79F14506A3700DEFF84 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				374BE7A014506A4F00DEFF84 /* AddViewController.h */,
+				374BE7A114506A4F00DEFF84 /* AddViewController.m */,
+				374BE7A214506A4F00DEFF84 /* AddViewController.xib */,
+				374BE7A314506A4F00DEFF84 /* DetailViewController_iPad.h */,
+				374BE7A414506A4F00DEFF84 /* DetailViewController_iPad.m */,
+				374BE7A514506A4F00DEFF84 /* DetailViewController_iPad.xib */,
+				374BE7A614506A4F00DEFF84 /* MasterDetailDelegate.h */,
+				374BE7A714506A4F00DEFF84 /* MasterViewController_iPad.h */,
+				374BE7A814506A4F00DEFF84 /* MasterViewController_iPad.m */,
+				374BE7A914506A4F00DEFF84 /* MasterViewController_iPad.xib */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				374BE788145069AE00DEFF84 /* InfoPlist.strings in Resources */,
+				374BE79B14506A1A00DEFF84 /* GreenViewController_iPhone.xib in Resources */,
+				374BE79D14506A1A00DEFF84 /* HomeViewController_iPhone.xib in Resources */,
+				374BE7AB14506A4F00DEFF84 /* AddViewController.xib in Resources */,
+				374BE7AD14506A4F00DEFF84 /* DetailViewController_iPad.xib in Resources */,
+				374BE7AF14506A4F00DEFF84 /* MasterViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +216,11 @@
 			files = (
 				374BE78A145069AE00DEFF84 /* main.m in Sources */,
 				374BE78E145069AE00DEFF84 /* AppDelegate.m in Sources */,
+				374BE79A14506A1A00DEFF84 /* GreenViewController_iPhone.m in Sources */,
+				374BE79C14506A1A00DEFF84 /* HomeViewController_iPhone.m in Sources */,
+				374BE7AA14506A4F00DEFF84 /* AddViewController.m in Sources */,
+				374BE7AC14506A4F00DEFF84 /* DetailViewController_iPad.m in Sources */,
+				374BE7AE14506A4F00DEFF84 /* MasterViewController_iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

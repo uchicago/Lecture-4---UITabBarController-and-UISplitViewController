@@ -1,12 +1,16 @@
 //
 //  AppDelegate.m
-//  Lecture 4 - Demonstration
+//  Lecture4-DemoA
 //
-//  Created by T. Andrew Binkowski on 10/20/11.
+//  Created by T. Andrew Binkowski on 10/16/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController_iPhone.h"
+#import "GreenViewController_iPhone.h"
+#import "MasterViewController_iPad.h"
+#import "DetailViewController_iPad.h"
 
 @implementation AppDelegate
 
@@ -18,11 +22,51 @@
     [super dealloc];
 }
 
+/*******************************************************************************
+ * @method          application:didFinishLaunchingWithOptions:
+ * @abstract        <# Abstract #>
+ * @description     <# Description #>
+ ******************************************************************************/
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // Check to make sure we're running on the iPad. 
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        
+        // Home view has nested navigation controller
+        HomeViewController_iPhone *hvc = [[[HomeViewController_iPhone alloc] init] autorelease];
+        UINavigationController *navController = [[[UINavigationController alloc] initWithRootViewController:hvc] autorelease];
+        
+        // Green view is stand alone view controller
+        GreenViewController_iPhone *gvc = [[[GreenViewController_iPhone alloc] init] autorelease];
+        
+        // Add view controllers to array
+        NSArray *viewControllers = [NSArray arrayWithObjects:navController,gvc,nil];
+        
+        // Set up tab bar and add to window
+        UITabBarController *tbc = [[UITabBarController alloc] init];
+        [tbc setViewControllers:viewControllers];
+        self.window.rootViewController = tbc;
+        
+    } else {
+        
+        MasterViewController_iPad *mvc = [[[MasterViewController_iPad alloc] init] autorelease];
+        DetailViewController_iPad *dvc = [[[DetailViewController_iPad alloc] init] autorelease];
+        
+        mvc.delegate = dvc; // This allows the master view controller to send messages to the detail view controller
+        
+        // Set up a navigation controller for view controller
+        UINavigationController *mController = [[[UINavigationController alloc] initWithRootViewController:mvc] autorelease];
+        UINavigationController *dController = [[[UINavigationController alloc] initWithRootViewController:dvc] autorelease];
+        
+        UISplitViewController *svc= [[[UISplitViewController alloc] init] autorelease];
+        svc.viewControllers = [NSArray arrayWithObjects:mController, dController, nil];
+        svc.delegate = dvc; // This lets the split view controller send messages to the detail view controller when the device is rotated
+        
+        self.window.rootViewController = svc;
+    }
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -65,5 +109,4 @@
      See also applicationDidEnterBackground:.
      */
 }
-
 @end
