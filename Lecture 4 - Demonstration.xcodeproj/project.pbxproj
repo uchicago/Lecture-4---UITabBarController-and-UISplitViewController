@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		374BE77E145069AE00DEFF84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374BE77D145069AE00DEFF84 /* UIKit.framework */; };
+		374BE780145069AE00DEFF84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374BE77F145069AE00DEFF84 /* Foundation.framework */; };
+		374BE782145069AE00DEFF84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374BE781145069AE00DEFF84 /* CoreGraphics.framework */; };
+		374BE788145069AE00DEFF84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 374BE786145069AE00DEFF84 /* InfoPlist.strings */; };
+		374BE78A145069AE00DEFF84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BE789145069AE00DEFF84 /* main.m */; };
+		374BE78E145069AE00DEFF84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BE78D145069AE00DEFF84 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		374BE779145069AE00DEFF84 /* Lecture 4 - Demonstration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture 4 - Demonstration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		374BE77D145069AE00DEFF84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		374BE77F145069AE00DEFF84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		374BE781145069AE00DEFF84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		374BE785145069AE00DEFF84 /* Lecture 4 - Demonstration-Info.plist */ = {isa = PBXFileReference; path = "Lecture 4 - Demonstration-Info.plist"; sourceTree = "<group>"; };
+		374BE787145069AE00DEFF84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		374BE789145069AE00DEFF84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		374BE78B145069AE00DEFF84 /* Lecture 4 - Demonstration-Prefix.pch */ = {isa = PBXFileReference; path = "Lecture 4 - Demonstration-Prefix.pch"; sourceTree = "<group>"; };
+		374BE78C145069AE00DEFF84 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		374BE78D145069AE00DEFF84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		374BE776145069AE00DEFF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374BE77E145069AE00DEFF84 /* UIKit.framework in Frameworks */,
+				374BE780145069AE00DEFF84 /* Foundation.framework in Frameworks */,
+				374BE782145069AE00DEFF84 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		374BE76E145069AD00DEFF84 = {
+			isa = PBXGroup;
+			children = (
+				374BE783145069AE00DEFF84 /* Lecture 4 - Demonstration */,
+				374BE77C145069AE00DEFF84 /* Frameworks */,
+				374BE77A145069AE00DEFF84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		374BE77A145069AE00DEFF84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				374BE779145069AE00DEFF84 /* Lecture 4 - Demonstration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		374BE77C145069AE00DEFF84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				374BE77D145069AE00DEFF84 /* UIKit.framework */,
+				374BE77F145069AE00DEFF84 /* Foundation.framework */,
+				374BE781145069AE00DEFF84 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		374BE783145069AE00DEFF84 /* Lecture 4 - Demonstration */ = {
+			isa = PBXGroup;
+			children = (
+				374BE78C145069AE00DEFF84 /* AppDelegate.h */,
+				374BE78D145069AE00DEFF84 /* AppDelegate.m */,
+				374BE784145069AE00DEFF84 /* Supporting Files */,
+			);
+			path = "Lecture 4 - Demonstration";
+			sourceTree = "<group>";
+		};
+		374BE784145069AE00DEFF84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				374BE785145069AE00DEFF84 /* Lecture 4 - Demonstration-Info.plist */,
+				374BE786145069AE00DEFF84 /* InfoPlist.strings */,
+				374BE789145069AE00DEFF84 /* main.m */,
+				374BE78B145069AE00DEFF84 /* Lecture 4 - Demonstration-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		374BE778145069AE00DEFF84 /* Lecture 4 - Demonstration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374BE791145069AE00DEFF84 /* Build configuration list for PBXNativeTarget "Lecture 4 - Demonstration" */;
+			buildPhases = (
+				374BE775145069AE00DEFF84 /* Sources */,
+				374BE776145069AE00DEFF84 /* Frameworks */,
+				374BE777145069AE00DEFF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lecture 4 - Demonstration";
+			productName = "Lecture 4 - Demonstration";
+			productReference = 374BE779145069AE00DEFF84 /* Lecture 4 - Demonstration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		374BE770145069AD00DEFF84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 374BE773145069AD00DEFF84 /* Build configuration list for PBXProject "Lecture 4 - Demonstration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 374BE76E145069AD00DEFF84;
+			productRefGroup = 374BE77A145069AE00DEFF84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				374BE778145069AE00DEFF84 /* Lecture 4 - Demonstration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		374BE777145069AE00DEFF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374BE788145069AE00DEFF84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		374BE775145069AE00DEFF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374BE78A145069AE00DEFF84 /* main.m in Sources */,
+				374BE78E145069AE00DEFF84 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		374BE786145069AE00DEFF84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				374BE787145069AE00DEFF84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		374BE78F145069AE00DEFF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		374BE790145069AE00DEFF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		374BE792145069AE00DEFF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lecture 4 - Demonstration/Lecture 4 - Demonstration-Prefix.pch";
+				INFOPLIST_FILE = "Lecture 4 - Demonstration/Lecture 4 - Demonstration-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		374BE793145069AE00DEFF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lecture 4 - Demonstration/Lecture 4 - Demonstration-Prefix.pch";
+				INFOPLIST_FILE = "Lecture 4 - Demonstration/Lecture 4 - Demonstration-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		374BE773145069AD00DEFF84 /* Build configuration list for PBXProject "Lecture 4 - Demonstration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374BE78F145069AE00DEFF84 /* Debug */,
+				374BE790145069AE00DEFF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374BE791145069AE00DEFF84 /* Build configuration list for PBXNativeTarget "Lecture 4 - Demonstration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374BE792145069AE00DEFF84 /* Debug */,
+				374BE793145069AE00DEFF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 374BE770145069AD00DEFF84 /* Project object */;
+}
