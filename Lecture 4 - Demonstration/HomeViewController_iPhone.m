@@ -23,6 +23,7 @@
                            tag:1];
          
         // Create the "+" button
+        // Create a share button for homework
         UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd 
                                                                              target:self 
                                                                              action:@selector(addStuff:)];
